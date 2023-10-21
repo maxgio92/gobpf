@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 // Copyright 2016 PLUMgrid
@@ -27,10 +28,10 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/iovisor/gobpf/bcc"
-	"github.com/iovisor/gobpf/elf"
-	"github.com/iovisor/gobpf/pkg/bpffs"
-	"github.com/iovisor/gobpf/pkg/progtestrun"
+	"github.com/maxgio92/gobpf/bcc"
+	"github.com/maxgio92/gobpf/elf"
+	"github.com/maxgio92/gobpf/pkg/bpffs"
+	"github.com/maxgio92/gobpf/pkg/progtestrun"
 )
 
 // redefine flags here as cgo in test is not supported

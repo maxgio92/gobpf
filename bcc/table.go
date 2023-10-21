@@ -21,7 +21,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/iovisor/gobpf/pkg/cpupossible"
+	"github.com/maxgio92/gobpf/pkg/cpupossible"
 )
 
 /*
